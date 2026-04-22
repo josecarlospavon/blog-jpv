@@ -1,0 +1,26 @@
+baseURL = 'https://josecarlospavon.es/'
+languageCode = 'es-es'
+title = 'José Carlos Pavón | SRE & DBA'
+theme = 'PaperMod'
+
+[params]
+  env = 'production'
+  description = 'Diario técnico, bases de datos, SRE y building Billetsmaker.'
+  author = 'José Carlos Pavón'
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  
+  # Estética del tema
+  defaultTheme = 'auto' # Puede ser 'light', 'dark' o 'auto' (según el SO del usuario)
+  
+  # Configuración de la página de inicio
+  [params.profileMode]
+    enabled = true
+    title = 'Hola, soy José Carlos Pavón 👋'
+    subtitle = 'Senior SRE / DBA construyendo infraestructuras escalables y Billetsmaker.'
+    
+    # Aquí puedes añadir tus enlaces sociales
+    [[params.profileMode.buttons]]
+      name = 'Mi GitHub'
+      url = 'https://github.com/josecarlospavon'
