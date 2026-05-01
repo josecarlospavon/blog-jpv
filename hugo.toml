@@ -1,4 +1,4 @@
-baseURL = "/" # Usamos relativa para que no falle en la demo de Vercel
+baseURL = "https://blog-jpv.vercel.app/" # Usamos relativa para que no falle en la demo de Vercel
 title = "José Carlos Pavón"
 theme = "PaperMod"
 
