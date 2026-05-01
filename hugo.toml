@@ -70,6 +70,11 @@ Ensuring availability, recovery, and performance for business-critical operation
       name = "Explore"
       url = "/explore/"
       weight = 50
+    
+    [[languages.en.menu.main]]
+      name = "About"
+      url = "/about/"
+      weight = 60
 
   # --- ESPAÑOL ---
   [languages.es]
@@ -123,3 +128,8 @@ Garantizando la disponibilidad, recuperación y rendimiento en operaciones crít
       name = "Explorar"
       url = "/es/explore/"
       weight = 50
+
+    [[languages.es.menu.main]]
+    name = "Sobre mí"
+    url = "/about/"
+    weight = 60
