@@ -1,26 +1,125 @@
-baseURL = 'https://josecarlospavon.es/'
-languageCode = 'es-es'
-title = 'José Carlos Pavón | SRE & DBA'
-theme = 'PaperMod'
+baseURL = "/" # Usamos relativa para que no falle en la demo de Vercel
+title = "José Carlos Pavón"
+theme = "PaperMod"
+
+# Configuración general
+defaultContentLanguage = "en" # Inglés como idioma principal
 
 [params]
-  env = 'production'
-  description = 'Diario técnico, bases de datos, SRE y building Billetsmaker.'
-  author = 'José Carlos Pavón'
+  # Opciones visuales del tema PaperMod
+  defaultTheme = "auto"
   ShowReadingTime = true
+  ShowShareButtons = true
   ShowPostNavLinks = true
-  ShowBreadCrumbs = true
-  
-  # Estética del tema
-  defaultTheme = 'auto' # Puede ser 'light', 'dark' o 'auto' (según el SO del usuario)
-  
-  # Configuración de la página de inicio
-  [params.profileMode]
-    enabled = true
-    title = 'Hola, soy José Carlos Pavón 👋'
-    subtitle = 'Senior SRE / DBA construyendo infraestructuras escalables y Billetsmaker.'
-    
-    # Aquí puedes añadir tus enlaces sociales
-    [[params.profileMode.buttons]]
-      name = 'Mi GitHub'
-      url = 'https://github.com/josecarlospavon'
+  ShowCodeCopyButtons = true
+  displayFullLangName = true
+
+# ==========================================
+# CONFIGURACIÓN DE IDIOMAS Y MENÚS
+# ==========================================
+[languages]
+
+  # --- INGLÉS (Por defecto) ---
+  [languages.en]
+    languageName = "English"
+    title = "A Database Logbook"
+    weight = 1
+
+  [languages.en.params.homeInfoParams]
+    Title = "José Carlos Pavón | A Database Logbook 📔"
+    Content = """
+**_"Performance only matters if your database is UP!"_**
+
+Ensuring availability, recovery, and performance for business-critical operations. With extensive experience in complex Oracle diagnostics, I design and optimize data platforms. Currently evolving into a DSRE role, applying years of operational rigor to cloud ecosystems (AWS/OCI) and open-source engines like PostgreSQL and MongoDB.
+"""
+    # Redes sociales (aparecen bajo el saludo)
+    [[languages.en.params.socialIcons]]
+        name = "github"
+        url = "https://github.com/josecarlospavon"
+    [[languages.en.params.socialIcons]]
+        name = "linkedin"
+        url = "https://www.linkedin.com/in/jose-carlos-pav%C3%B3n-b4918842"
+
+    # Menú superior en inglés
+    [[languages.en.menu.main]]
+      identifier = "categories"
+      name = "Categories"
+      url = "/categories/"
+      weight = 10
+
+    [[languages.en.menu.main]]
+      identifier = "tags"
+      name = "Tags"
+      url = "/tags/"
+      weight = 20
+
+    [[languages.en.menu.main]]
+      identifier = "archives"
+      name = "Archive"
+      url = "/archives/"
+      weight = 30
+
+    [[languages.en.menu.main]]
+      identifier = "library"
+      name = "Library"
+      url = "/library/"
+      weight = 40
+
+    [[languages.en.menu.main]]
+      identifier = "explore"
+      name = "Explore"
+      url = "/explore/"
+      weight = 50
+
+  # --- ESPAÑOL ---
+  [languages.es]
+    languageName = "🇪🇸 Español"
+    title = "A Database Logbook"
+    weight = 2
+
+    [languages.es.params.homeInfoParams]
+    Title = "José Carlos Pavón | A Database Logbook 📔"
+    Content = """
+**_"Performance only matters if your database is UP!"_**
+
+Garantizando la disponibilidad, recuperación y rendimiento en operaciones críticas de negocio. Con amplia experiencia en diagnósticos complejos de Oracle, diseño y optimizo plataformas de datos. Actualmente en transición hacia un rol de DSRE, aplicando años de rigor operativo a la nube (AWS/OCI) y motores como PostgreSQL y MongoDB.
+"""
+
+    # Redes sociales para la versión en español
+    [[languages.es.params.socialIcons]]
+        name = "github"
+        url = "https://github.com/josecarlospavon"
+    [[languages.es.params.socialIcons]]
+        name = "linkedin"
+        url = "https://www.linkedin.com/in/jose-carlos-pav%C3%B3n-b4918842/"
+
+    # Menú superior en español
+    [[languages.es.menu.main]]
+      identifier = "categories"
+      name = "Categorías"
+      url = "/es/categories/"
+      weight = 10
+
+    [[languages.es.menu.main]]
+      identifier = "tags"
+      name = "Etiquetas"
+      url = "/es/tags/"
+      weight = 20
+
+    [[languages.es.menu.main]]
+      identifier = "archives"
+      name = "Archivo"
+      url = "/es/archives/"
+      weight = 30
+
+    [[languages.es.menu.main]]
+      identifier = "library"
+      name = "Librería"
+      url = "/es/library/"
+      weight = 40
+
+    [[languages.es.menu.main]]
+      identifier = "explore"
+      name = "Explorar"
+      url = "/es/explore/"
+      weight = 50

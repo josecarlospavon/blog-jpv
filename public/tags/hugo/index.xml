@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Hugo on José Carlos Pavón | SRE &amp; DBA</title>
-    <link>http://localhost:1313/tags/hugo/</link>
-    <description>Recent content in Hugo on José Carlos Pavón | SRE &amp; DBA</description>
+    <title>Hugo on A Database Logbook</title>
+    <link>//localhost:1313/tags/hugo/</link>
+    <description>Recent content in Hugo on A Database Logbook</description>
     <generator>Hugo</generator>
-    <language>es-es</language>
+    <language>en</language>
     <lastBuildDate>Wed, 22 Apr 2026 19:40:00 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello World: Migrando mi infraestructura a Hugo</title>
-      <link>http://localhost:1313/posts/hello-world/</link>
+      <link>//localhost:1313/posts/hello-world/</link>
       <pubDate>Wed, 22 Apr 2026 19:40:00 +0200</pubDate>
-      <guid>http://localhost:1313/posts/hello-world/</guid>
+      <guid>//localhost:1313/posts/hello-world/</guid>
       <description>&lt;p&gt;Este es el primer post de mi nuevo blog. He decidido abandonar plataformas cerradas y montar mi propio &amp;ldquo;Data Center&amp;rdquo; estático usando Hugo, GitHub y Vercel.&lt;/p&gt;
 &lt;h3 id=&#34;por-qué-este-cambio&#34;&gt;¿Por qué este cambio?&lt;/h3&gt;
 &lt;p&gt;Como DBA y SRE, tener control absoluto de mi infraestructura es innegociable. Con este setup consigo:&lt;/p&gt;
