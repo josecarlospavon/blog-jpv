@@ -21,7 +21,7 @@ defaultContentLanguage = "en" # Inglés como idioma principal
 
   # --- INGLÉS (Por defecto) ---
   [languages.en]
-    languageName = "English"
+    languageName = "🇬🇧 English"
     title = "A Database Logbook"
     weight = 1
 
