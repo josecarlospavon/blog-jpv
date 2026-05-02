@@ -18,6 +18,6 @@ This site serves as my personal **“brain dump”**: a place where I offload no
 ---
 
 ### Disclaimer
-* **Opinions:** All opinions expressed on this blog are strictly my own and **do not represent those of my employer**[cite: 1].
-* **Technical Criteria:** The procedures and recommendations described here are based on my own experience and criteria. They do not necessarily reflect the official methodology of vendors or my current employer[cite: 1].
-* **Responsibility:** Please ensure you always test any script or configuration in a pre-production environment before applying it to mission-critical systems[cite: 1].
+* **Opinions:** All opinions expressed on this blog are strictly my own and do not represent those of my employer.
+* **Technical Criteria:** The procedures and recommendations described here are based on my own experience and criteria. They do not necessarily reflect the official methodology of vendors or my current employer.
+* **Responsibility:** Please ensure you always test any script or configuration in a pre-production environment before applying it to mission-critical systems.

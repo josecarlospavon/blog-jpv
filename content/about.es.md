@@ -18,6 +18,6 @@ Este sitio es mi **“brain dump”** personal: un espacio donde vuelco diagnós
 ---
 
 ### Disclaimer
-* **Opiniones:** Todas las opiniones expresadas en este blog son estrictamente mías y **no representan las de mi empleador**.
-* **Criterio técnico:** Los procedimientos y recomendaciones aquí descritos se basan en mi propia experiencia y criterio profesional; no reflejan necesariamente la metodología oficial de los fabricantes ni de las empresas para las que trabajo[cite: 1].
-* **Responsabilidad:** Por favor, asegúrate siempre de probar cualquier script o configuración en un entorno de pre-producción antes de aplicarlo en sistemas críticos[cite: 1].
+* **Opiniones:** Todas las opiniones expresadas en este blog son estrictamente mías y no representan las de mi empleador.
+* **Criterio técnico:** Los procedimientos y recomendaciones aquí descritos se basan en mi propia experiencia y criterio profesional; no reflejan necesariamente la metodología oficial de los fabricantes ni de las empresas para las que trabajo.
+* **Responsabilidad:** Por favor, asegúrate siempre de probar cualquier script o configuración en un entorno de pre-producción antes de aplicarlo en sistemas críticos.
