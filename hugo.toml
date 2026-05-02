@@ -14,6 +14,9 @@ defaultContentLanguage = "en" # Inglés como idioma principal
   ShowCodeCopyButtons = true
   displayFullLangName = true
 
+[outputs]
+    home = ["HTML", "RSS", "JSON"]
+
 # ==========================================
 # CONFIGURACIÓN DE IDIOMAS Y MENÚS
 # ==========================================
@@ -64,11 +67,11 @@ Ensuring availability, recovery, and performance for business-critical operation
       name = "Library"
       url = "/library/"
       weight = 40
-
+    
     [[languages.en.menu.main]]
-      identifier = "explore"
-      name = "Explore"
-      url = "/explore/"
+      identifier = "search"
+      name = "Search"
+      url = "/search/"
       weight = 50
     
     [[languages.en.menu.main]]
@@ -124,9 +127,9 @@ Garantizando la disponibilidad, recuperación y rendimiento en operaciones crít
       weight = 40
 
     [[languages.es.menu.main]]
-      identifier = "explore"
-      name = "Explorar"
-      url = "/es/explore/"
+      identifier = "search"
+      name = "Buscar"
+      url = "/search/"
       weight = 50
 
     [[languages.es.menu.main]]

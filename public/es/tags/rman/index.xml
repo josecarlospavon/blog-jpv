@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>RMAN on A Database Logbook</title>
+    <link>http://localhost:1313/es/tags/rman/</link>
+    <description>Recent content in RMAN on A Database Logbook</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <lastBuildDate>Tue, 15 Jun 2021 10:00:00 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/es/tags/rman/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Solución a errores RMAN-05541 y RMAN-05001 al duplicar bases de datos</title>
+      <link>http://localhost:1313/es/posts/rman-duplicate-errors-05541/</link>
+      <pubDate>Tue, 15 Jun 2021 10:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/es/posts/rman-duplicate-errors-05541/</guid>
+      <description>Guía rápida para solucionar conflictos de nombres de archivos y IDs de recursos durante un RMAN Duplicate en Oracle.</description>
+    </item>
+  </channel>
+</rss>

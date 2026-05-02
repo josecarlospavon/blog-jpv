@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Oracle on A Database Logbook</title>
+    <link>http://localhost:1313/tags/oracle/</link>
+    <description>Recent content in Oracle on A Database Logbook</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 15 Jun 2021 10:00:00 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/oracle/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Fix RMAN-05541 and RMAN-05001 During Database Duplicate</title>
+      <link>http://localhost:1313/posts/rman-duplicate-errors-05541/</link>
+      <pubDate>Tue, 15 Jun 2021 10:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/posts/rman-duplicate-errors-05541/</guid>
+      <description>Quick guide to resolving file name conflicts and resource ID issues during RMAN Duplicate in Oracle environments.</description>
+    </item>
+  </channel>
+</rss>

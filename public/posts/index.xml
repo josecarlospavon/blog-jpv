@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on A Database Logbook</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on A Database Logbook</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 22 Apr 2026 19:40:00 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World: Migrando mi infraestructura a Hugo</title>
+      <link>http://localhost:1313/posts/hello-world/</link>
+      <pubDate>Wed, 22 Apr 2026 19:40:00 +0200</pubDate>
+      <guid>http://localhost:1313/posts/hello-world/</guid>
+      <description>&lt;p&gt;Este es el primer post de mi nuevo blog. He decidido abandonar plataformas cerradas y montar mi propio &amp;ldquo;Data Center&amp;rdquo; estático usando Hugo, GitHub y Vercel.&lt;/p&gt;
+&lt;h3 id=&#34;por-qué-este-cambio&#34;&gt;¿Por qué este cambio?&lt;/h3&gt;
+&lt;p&gt;Como DBA y SRE, tener control absoluto de mi infraestructura es innegociable. Con este setup consigo:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Rendimiento extremo&lt;/strong&gt; (cero llamadas a BBDD).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Soberanía de datos&lt;/strong&gt; (mis posts son archivos Markdown en mi local).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Flujo CI/CD&lt;/strong&gt; (escribo, hago push y se despliega solo).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Nos vemos en el próximo post.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to Fix RMAN-05541 and RMAN-05001 During Database Duplicate</title>
+      <link>http://localhost:1313/posts/rman-duplicate-errors-05541/</link>
+      <pubDate>Tue, 15 Jun 2021 10:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/posts/rman-duplicate-errors-05541/</guid>
+      <description>Quick guide to resolving file name conflicts and resource ID issues during RMAN Duplicate in Oracle environments.</description>
+    </item>
+  </channel>
+</rss>
